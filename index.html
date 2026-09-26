@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>David Jeremy</title>
+  <meta name="description" content="David Jeremy — coming soon.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Inter:wght@400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f6f3ee;
+      --fg: #1c1b19;
+      --muted: #6b6760;
+      --accent: #b4532a;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #151412;
+        --fg: #f1ede6;
+        --muted: #9a958c;
+        --accent: #e0875f;
+      }
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      background: var(--bg);
+      color: var(--fg);
+      font-family: "Inter", system-ui, sans-serif;
+      display: grid;
+      place-items: center;
+      padding: 16px;
+      text-align: center;
+    }
+    h1 {
+      font-family: "Fraunces", Georgia, serif;
+      font-weight: 500;
+      font-size: clamp(2.5rem, 9vw, 5.5rem);
+      letter-spacing: -0.02em;
+      line-height: 1.05;
+    }
+    .rule {
+      width: 48px;
+      height: 2px;
+      background: var(--accent);
+      margin: 1.75rem auto;
+    }
+    p {
+      color: var(--muted);
+      font-size: clamp(1rem, 2.5vw, 1.2rem);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>David Jeremy</h1>
+    <div class="rule"></div>
+    <p>Come back soon</p>
+  </main>
+</body>
+</html>
